@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4771D19D1C970477000170E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4771D19B1C970477000170E6 /* LaunchScreen.storyboard */; };
 		4771D19E1C970477000170E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4771D19C1C970477000170E6 /* Main.storyboard */; };
+		4771D1A41C9705B6000170E6 /* BasePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4771D1A31C9705B6000170E6 /* BasePage.m */; };
 		47B712EC1C96AE4100F1BD2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B712EB1C96AE4100F1BD2C /* main.m */; };
 		47B712EF1C96AE4100F1BD2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B712EE1C96AE4100F1BD2C /* AppDelegate.m */; };
 		47B712F21C96AE4100F1BD2C /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B712F11C96AE4100F1BD2C /* HomePage.m */; };
@@ -20,6 +21,8 @@
 		4771D19A1C96FDB3000170E6 /* NewsReader-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NewsReader-Prefix.pch"; sourceTree = "<group>"; };
 		4771D19B1C970477000170E6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4771D19C1C970477000170E6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4771D1A21C9705B6000170E6 /* BasePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePage.h; sourceTree = "<group>"; };
+		4771D1A31C9705B6000170E6 /* BasePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePage.m; sourceTree = "<group>"; };
 		47B712E71C96AE4100F1BD2C /* NewsReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B712EB1C96AE4100F1BD2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47B712ED1C96AE4100F1BD2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 			children = (
 				47B712F01C96AE4100F1BD2C /* HomePage.h */,
 				47B712F11C96AE4100F1BD2C /* HomePage.m */,
+				4771D1A21C9705B6000170E6 /* BasePage.h */,
+				4771D1A31C9705B6000170E6 /* BasePage.m */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47B712F21C96AE4100F1BD2C /* HomePage.m in Sources */,
+				4771D1A41C9705B6000170E6 /* BasePage.m in Sources */,
 				47B712EF1C96AE4100F1BD2C /* AppDelegate.m in Sources */,
 				47B712EC1C96AE4100F1BD2C /* main.m in Sources */,
 			);

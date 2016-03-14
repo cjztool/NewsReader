@@ -6,9 +6,9 @@
 //  Copyright © 2016年 com.cjz. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BasePage.h"
 
-@interface HomePage : UIViewController
+@interface HomePage : BasePage
 
 
 @end
