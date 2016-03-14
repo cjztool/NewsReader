@@ -1,0 +1,14 @@
+//
+//  NewsReader-Prefix.pch
+//  NewsReader
+//
+//  Created by cjz on 16/3/14.
+//  Copyright © 2016年 com.cjz. All rights reserved.
+//
+
+#ifndef NewsReader_Prefix_pch
+#define NewsReader_Prefix_pch
+
+#import "Defines.h"
+
+#endif /* NewsReader_Prefix_pch */

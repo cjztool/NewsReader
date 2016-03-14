@@ -1,3 +1,3 @@
 # NewsReader
-just learn ios dev
-此项目学习之用,请忽略
+Only for learning purposes, please ignore this repository..
+此项目仅仅学习之用,请忽略..

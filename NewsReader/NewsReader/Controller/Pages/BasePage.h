@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BasePage.h
 //  NewsReader
 //
 //  Created by cjz on 16/3/14.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomePage : UIViewController
+@interface BasePage : UIViewController
 
 
 @end
-
